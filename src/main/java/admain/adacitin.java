@@ -51,7 +51,6 @@ public class adacitin extends basepage{
 		adc.isElementVisible(on.getOrderno().getText());
 		adc.getTxtAttribute(on.getOrderno());
 		
-		
 		System.out.println("hello");
 	}
 
