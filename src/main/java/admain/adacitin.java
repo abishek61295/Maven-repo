@@ -14,6 +14,7 @@ public class adacitin extends basepage{
 		
 		adc.getdriver();
 		adc.geturl("http://adactinhotelapp.com/");
+	
 		
 		loginpage log = new loginpage();
 		adc.enterdetails(log.getUsername(),"adminabi");
@@ -50,8 +51,7 @@ public class adacitin extends basepage{
 		adc.isElementVisible(on.getOrderno().getText());
 		adc.getTxtAttribute(on.getOrderno());
 		
-		System.out.println("hello....i'm vishwa");
-		
+		System.out.println("hello");
 	}
 
 }
